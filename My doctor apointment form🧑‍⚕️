@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8>
+        <meta name="viewport" content="width=device-width">
+        <title>My doctors appointment</title>
+    </head>
+    <body>
+
+        <h1.🏥My doctors appointment</title>
+    <p>Fill in the form below you to book your appointment</p>
+    <hr>
+
+    <form>
+
+        <fieldset>
+            <legend>personal details</legend>
+
+            <label>your name</label><br>
+            <input type="text" id="name" placeholders="enter your full name"><br><br>
+
+            <label>Pateint id</label><br>
+            <input type="password" id="pid" placeholder="your secret ID"<br><br>
+
+            <label>Date of birth</label><br>
+            <input type="date" id="dob"><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>your visit</legend>
+
+            <label>choose your doctor</label><br>
+            <select id="doctor">
+                <select id="doctor">
+                    <option value="">--select a doctor--</option>
+                    <option value="DR Ray">--Dr ray- Genral</option>
+                    <option value="dr lee">--Dr. lee- teeth</option>
+                    <option value="Dr. sam">--Dr. sam- Eyes</option>
+                </select><br><br>
+
+                    <label>why are you visiting?</label><br>
+                    <input type="radio" name="reason" value="fever">
+                    fever<br>
+                     <input type="radio" name="reason" value"cold"> cold<br>
+                      <input type="radio" name="reason" value="checkup">Checkup<br>
+                       <input type="radio" name="reason" value="tooth">Tooth pain<br><br>
+
+                       <label>Any notes for the doctor?</label><br>
+                       <textarea id="notes" rows="3" cols="35" placeholder="e.g. I have had a sore throat for 2 days."></textarea><br>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Preferred Visit Day</legend>
+
+<input type="checkbox" value="mon"> Monday<br>
+
+<input type="checkbox" value="wed"> Wednesday<br>
+
+<input type="checkbox" value="fri"> Friday<br>
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Book My Appointment">
+
+</form>
+
+</body>
+
+</html>
