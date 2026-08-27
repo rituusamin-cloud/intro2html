@@ -1,0 +1,42 @@
+body {
+    background-color:darkblue;
+    background-image: linear-gradient(to bottim,darkblue,navy);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial,sans-serif;
+}
+
+.page-header {
+background-image: linear-gradient(to right,purple,coral);
+border-radius: 17 px;
+text-align: center;
+color: antiquewhite;
+}
+
+.fact-card {
+    background-color: midnightblue;
+    border-radius: 13 px;
+    color: white;
+}
+
+.fact-card h2 {
+    color: coral;
+}
+
+.star {
+    width: 60 px;
+    height: 60 px;
+    background-color:yellow ;
+    border-radius: 50%;
+ animation:twinkle is infinite alternate;
+}
+
+@keyframes twinkle {
+    from {background-color:yellow;}
+    to {background-color:white;}
+}
+
+.footer-text {
+    text-align: center;
+    color: coral;
+}
